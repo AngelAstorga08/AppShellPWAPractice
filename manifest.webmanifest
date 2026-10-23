@@ -1,0 +1,14 @@
+{
+    "name": "Catálogo de productos",
+    "short_name": "Productos",
+    "start_url": ".",
+    "display": "standalone",
+    "description": "Catálogo de productos de Ángel Astorga",
+    "icons": [
+        {
+        "src": "icon.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+        }
+    ]
+}

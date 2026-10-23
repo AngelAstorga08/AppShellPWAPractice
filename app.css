@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: #cfc8dc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: teal;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 30px 40px;
+    font-size: 22px;
+}
+#lista{
+    margin-top: 16px;
+}
+main{ padding: 100px 20px 30px; }
+#product-form, .card{ background: white; padding: 24px; border-radius: 6px; box-shadow: 1px 1px 3px #0002; }
+#product-form{ display: grid; gap: 12px; max-width: 600px; }
+#product-form label{ display: grid; gap: 5px; }
+input, textarea{ padding: 9px; font: inherit; }
+.actions{ display: flex; gap: 10px; flex-wrap: wrap; }
+button{ padding: 9px 14px; background: teal; color: white; border: 0; border-radius: 4px; cursor: pointer; }
+button:disabled{ opacity: .5; cursor: not-allowed; }
+#offline-message{
+    margin: 85px 20px -85px;
+    padding: 16px;
+    background: #fff3cd;
+    color: #664d03;
+    border-radius: 4px;
+}
+#offline-message[hidden]{ display: none; }
+.card{
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.card h2{
+    margin-top: 0;
+}
